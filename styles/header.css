@@ -1,4 +1,4 @@
-.cabeçalho_menu-hamburguer{
+.cabecalho_menu-hamburguer{
     width: 24px;
     height: 24px;
     background-image: url(../imagem/Menu.svg.png);
@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-.cabeçalho{
+.cabecalho{
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
