@@ -30,7 +30,7 @@ h1{
     }
     
 }
-.lista menu{
+.lista-menu{
     display: none;
 }
 .div-menu:checked ~.lista-menu{
