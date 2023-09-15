@@ -18,10 +18,28 @@
 h1{
     display: none;
 }
+.div-imagem{
+    padding: 1em;
+}
 .lista-menu{
     display: block;
     position: absolute;
     top: 100%;
+}
+    
+    .lista-menu-titulo{
+        color: var(--amarelo);
+    }
+    .lista-menu-link{
+        background: var(--roxo);
+        background-clip: text;
+        text-transform: uppercase;
+    }
+    .lista-menu-titulo,.lista-menu-item{
+        padding: 1em;
+        background-color: var(--branco);
+    }
+
 }
 @media screen and (min-width:1024px) {
     h1{
