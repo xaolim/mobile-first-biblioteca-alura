@@ -10,6 +10,8 @@
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    position: relative;
 }
 .div-1{
     display: flex;
@@ -19,15 +21,15 @@ h1{
     display: none;font size: 16px;
     font weight: 400;
 }
-.div-imagem{
-    padding: 1em;
-}
 .lista-menu{
     display: block;
     position: absolute;
     top: 100%;
 }
-    
+.lista-menu-titulo,.lista-menu-item{
+    padding: 1em;
+    background-color: var(--branco);
+}
     .lista-menu-titulo{
         color: var(--amarelo);
     }
@@ -36,12 +38,6 @@ h1{
         background-clip: text;
         text-transform: uppercase;
     }
-    .lista-menu-titulo,.lista-menu-item{
-        padding: 1em;
-        background-color: var(--branco);
-    }
-
-
 @media screen and (min-width:1024px) {
     h1{
         font-size:30px;
