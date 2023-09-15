@@ -39,6 +39,10 @@ h1{
         padding: 1em;
         background-color: var(--branco);
     }
+
+    .div-menu{
+        display: none;
+    }
 @media screen and (min-width:1024px) {
     h1{
         font-size:30px;
